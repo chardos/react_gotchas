@@ -2,7 +2,7 @@
 
 ### Principles
 - State changes are made by dispatching `actions`. State can't be modified any other way.
-
+- Next state = Previous state + action
 
 ### Pure functions
 
