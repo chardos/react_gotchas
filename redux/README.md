@@ -13,3 +13,16 @@
 ### Reducer
 
 - Reducer is a function that takes the **previous state** of the app, applies the **action**, and returns the **next state** of the app
+
+### The immutable way of doing things
+
+#### Removing an item from an array
+```js
+var removeCounter = (list, index) => {
+
+  return [
+    ...list.slice(0, index),
+    ...list.slice(index+1)
+  ]
+}
+```
