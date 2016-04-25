@@ -16,6 +16,13 @@
 
 ### The immutable way of doing things
 
+#### Adding an item to an array
+```js
+var addCounter = (list) => {
+  return [...list, 0]
+}
+```
+
 #### Removing an item from an array
 ```js
 var removeCounter = (list, index) => {
